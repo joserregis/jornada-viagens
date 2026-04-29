@@ -13,7 +13,7 @@
 
 .categories-cards .card {
   width: 312px;
-  height: 220px;
+  height: 280px;
   background-color: var(--background-secondary-color);
   text-align: center;
   border-radius: 16px;
@@ -21,11 +21,6 @@
   box-sizing: border-box;
   text-decoration: none;
   color: var(--text-primary-color);
-}
-
-.categories-cards .card h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
 }
 
 .categories-cards .card.single-line {
