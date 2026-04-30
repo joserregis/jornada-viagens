@@ -1,8 +1,18 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
   height: 400px;
-  width: 100%;
+  width: 100% !important;
+}
+
+.hero .hero-img {
   background: url("../img/hero-mobile.jpg") no-repeat;
   background-size: cover;
+}
+
+.bottom-hero .hero-img {
+  background: url("../img/bg-bottom-hero-mobile.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h2 {
@@ -15,10 +25,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
 
     background: url("../img/hero-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 400px;
+    background: url("../img/bg-bottom-hero-tablet.png") no-repeat;
     background-size: cover;
   }
 
@@ -30,8 +46,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     background: url("../img/hero-desktop.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    background: url("../img/bg-bottom-hero-desktop.png") no-repeat;
     background-size: cover;
   }
 
